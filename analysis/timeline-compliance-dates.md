@@ -11,6 +11,7 @@ All dates from Art. 113 (application), Art. 111 (legacy systems), Art. 112 (revi
 | **2 May 2025** | GPAI codes of practice ready | Art. 56(9) |
 | **2 Aug 2025** | Chapter III Section 4 applies (notifying authorities + notified bodies operational); **Chapter V GPAI obligations apply** (Annex XI/XII docs, copyright policy, training-content summary, systemic-risk duties); Chapter VII governance live (AI Office, Board, scientific panel, national competent authorities designated); **Chapter XII penalties regime in force for Member States** (notify penalty rules to Commission by this date per Art. 99(2)); Art. 78 confidentiality. Member States publish contact points for authorities (Art. 70(2)); Commission serious-incident guidance due (Art. 73(7)); biennial resourcing reports start (Art. 70(6)) | Art. 113(b) |
 | **2 Feb 2026** | Commission guidelines on high-risk classification (Art. 6 practical implementation) due; post-market-monitoring plan template implementing act due | Arts. 6(5), 72(3) |
+| **2 Aug 2026** | Every Member State must have ≥1 AI regulatory sandbox operational | Art. 57(1) |
 | **2 Aug 2026** | **General application date**: Chapter III high-risk regime (Annex III path) + all provider/deployer/importer/distributor obligations; Chapter IV transparency (Art. 50); EU database registration duties; Art. 101 Commission fining power over GPAI providers (carved out of the 2025 batch) | Art. 113 main paragraph, Art. 113(b) exception |
 | **2 Aug 2027** | **Art. 6(1) Annex I product-safety path** becomes applicable with corresponding obligations (medical devices, machinery, vehicles, aviation etc.) | Art. 113(c) |
 | **31 Dec 2030** | Large-scale IT systems under Annex X legal acts (placed before 2 Aug 2027) must be brought into compliance | Art. 111(1) |
@@ -21,6 +22,11 @@ All dates from Art. 113 (application), Art. 111 (legacy systems), Art. 112 (revi
 - **High-risk systems placed on market/put into service before 2 Aug 2026**: Regulation applies only if they undergo **significant changes in their designs** as from that date. Otherwise grandfathered — except the public-authority carve-out above.
 - **GPAI models placed before 2 Aug 2025**: providers must take necessary steps to comply by **2 Aug 2027**.
 - Prohibited practices (Art. 5) apply regardless of placement date from 2 Feb 2025 — no grandfathering.
+
+## Innovation-support infrastructure
+- National AI regulatory sandboxes: at least one per Member State, operational by 2 Aug 2026; may be joint; Commission technical support (Arts. 57–59). Sandbox benefits include priority guidance and possible derogations from real-world-testing conditions (Arts. 58–59, 76(2)).
+- Testing in real-world conditions regime with informed consent and MSA supervision (Arts. 60–61, 76).
+- SME support: dedicated priorities in QMS/tech-doc simplification, sandbox access priority, dedicated MSA guidance (Arts. 62–63); SME fines capped lower-of (Art. 99(6)).
 
 ## In-article deadlines worth calendaring
 
