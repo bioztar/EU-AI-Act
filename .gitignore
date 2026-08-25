@@ -1,2 +1,3 @@
 corpus/**/*.pdf
 .DS_Store
+analysis/.pass-notes.md
