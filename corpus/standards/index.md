@@ -12,6 +12,25 @@
 The machine-readable JTC 21 work programme was not retrievable this session; the landscape
 below is **reported status to be re-verified** against the live work programme.
 
+## Update (checked 2026-08-29)
+Re-checked via web search (jtc21.eu and standards.cencenelec.eu remain effectively unreachable
+to this agent, same as 2026-08-25) against secondary reporting (CEN-CENELEC news page, EU AI Act
+standards trackers). Findings:
+- **Zero JTC 21 harmonised standards were published/cited in the Official Journal as of
+  2026-08-29.** The "final harmonised standards expected through 2026-2027" line below is still
+  the right ballpark but was optimistic on timing for OJ citation specifically.
+- CEN and CENELEC's Technical Boards adopted an **acceleration package on 14-16 October 2025**
+  (see https://www.cencenelec.eu/news-events/news/2025/brief-news/2025-10-23-ai-standardization/)
+  targeting delivery of the key standards by **Q4 2026**.
+- Reported drafting status as of mid-2026: EN 18286 (quality management system, Art. 17) is
+  furthest along, at Approval stage; prEN 18228 (risk management, Art. 9), prEN 18229-1, and
+  prEN 18282 are at Enquiry stage; the rest of the series is still drafting.
+- Sequence going forward: CEN/CENELEC publish first (targeted 2026) → Commission reviews →
+  reference cited in the Official Journal (presumption-of-conformity effect under Art. 40 only
+  starts once cited). As of 2026-08-29 the corpus's own JTC 21 work-programme fetch is still
+  blocked; treat the standard IDs above as reported-not-verified-firsthand and re-fetch
+  standards.cencenelec.eu (org id 2916257) or jtc21.eu directly when reachable.
+
 ## Mandate context (stable facts)
 - The Commission requested European standardisation organisations (via Reg (EU) No 1025/2012)
   to draft harmonised standards supporting AI Act conformity (mandate M/587, 2023).

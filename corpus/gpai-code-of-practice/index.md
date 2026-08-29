@@ -21,3 +21,7 @@ Published by the European Commission's AI Office on **10 July 2025**.
 - Signing/signatory process: see
   <https://digital-strategy.ec.europa.eu/en/library/ai-office-invites-providers-sign-gpai-code-practice>.
 - All files fetched 2026-08-25 via plain curl; no authentication used.
+- Checked 2026-08-29 against digital-strategy.ec.europa.eu/en/policies/contents-code-gpai: still the
+  10 July 2025 version (three chapters unchanged); no content revision published. Only the signatory
+  list has moved since (Better Regulation mirror shows "updated 23 April 2026 with Signatories"),
+  which does not affect the chapter text in this corpus.
