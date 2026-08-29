@@ -31,8 +31,14 @@ Verified complete: 180 recitals, 113 articles, Annexes I–XIII.
 | high-risk-classification-draft-annex-iii.en.pdf/.md | same | document/128561 |
 
 All direct documents under https://ec.europa.eu/newsroom/dae/redirection/.
-Note: high-risk classification guidelines exist only as draft consultation versions as of fetch date;
-final GPAI-scope and AI-system-definition guidelines carry later revision dates than their
+Note: high-risk classification guidelines exist only as draft consultation versions as of fetch date
+(2026-08-25). Checked again 2026-08-29 against digital-strategy.ec.europa.eu: still draft — published
+19 May 2026 (missing the Art. 6(5) 2 Feb 2026 statutory deadline), targeted stakeholder consultation
+ran through 23 July 2026, page last updated 23 July 2026, no adoption/finalisation date shown. No
+final (non-draft) version has been published as of 2026-08-29; re-check
+https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems
+periodically and replace these three files when it lands.
+Final GPAI-scope and AI-system-definition guidelines carry later revision dates than their
 approval communications (documents are self-dated in their headers).
 
 ## corpus/gpai-code-of-practice/

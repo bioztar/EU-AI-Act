@@ -2,6 +2,8 @@
 
 All dates from Art. 113 (application), Art. 111 (legacy systems), Art. 112 (reviews), and in-article deadlines. Entry into force: 1 August 2024 (20th day after OJ publication of 12 July 2024).
 
+**Status check (2026-08-29):** every milestone through **2 Aug 2026** below — prohibitions, AI literacy, GPAI obligations, governance, penalties regime, the Annex III high-risk regime, and Art. 50 transparency — is **already in force**, not upcoming. Only the Annex I product-safety path (2 Aug 2027) and the two 2030/2031 legacy dates remain future as of this check. Read every "applies from" below as a historical trigger date, not a countdown.
+
 ## Binding milestones
 
 | Date | What becomes binding | Source |
@@ -10,7 +12,7 @@ All dates from Art. 113 (application), Art. 111 (legacy systems), Art. 112 (revi
 | **2 Feb 2025** | Chapters I–II apply: AI-system definitions in force; **prohibited practices ban enforceable**; **AI literacy duty** on providers & deployers | Art. 113(a) |
 | **2 May 2025** | GPAI codes of practice ready | Art. 56(9) |
 | **2 Aug 2025** | Chapter III Section 4 applies (notifying authorities + notified bodies operational); **Chapter V GPAI obligations apply** (Annex XI/XII docs, copyright policy, training-content summary, systemic-risk duties); Chapter VII governance live (AI Office, Board, scientific panel, national competent authorities designated); **Chapter XII penalties regime in force for Member States** (notify penalty rules to Commission by this date per Art. 99(2)); Art. 78 confidentiality. Member States publish contact points for authorities (Art. 70(2)); Commission serious-incident guidance due (Art. 73(7)); biennial resourcing reports start (Art. 70(6)) | Art. 113(b) |
-| **2 Feb 2026** | Commission guidelines on high-risk classification (Art. 6 practical implementation) due; post-market-monitoring plan template implementing act due | Arts. 6(5), 72(3) |
+| **2 Feb 2026** | Commission guidelines on high-risk classification (Art. 6 practical implementation) due; post-market-monitoring plan template implementing act due — deadline **missed**: draft guidelines only published 19 May 2026, still not finalised as of 2026-08-29 (checked 2026-08-29) | Arts. 6(5), 72(3) |
 | **2 Aug 2026** | Every Member State must have ≥1 AI regulatory sandbox operational | Art. 57(1) |
 | **2 Aug 2026** | **General application date**: Chapter III high-risk regime (Annex III path) + all provider/deployer/importer/distributor obligations; Chapter IV transparency (Art. 50); EU database registration duties; Art. 101 Commission fining power over GPAI providers (carved out of the 2025 batch) | Art. 113 main paragraph, Art. 113(b) exception |
 | **2 Aug 2027** | **Art. 6(1) Annex I product-safety path** becomes applicable with corresponding obligations (medical devices, machinery, vehicles, aviation etc.) | Art. 113(c) |

@@ -123,6 +123,8 @@ Everything else: no direct obligations beyond:
 
 ## Quick reference — tier × start date
 
+**Status check (2026-08-29):** every "applies from" row through 2 Aug 2026 is already in force today; only the Annex I product-safety row (2 Aug 2027) is still future.
+
 | Tier | Governing article(s) | Applies from |
 |---|---|---|
 | Prohibitions + AI literacy | Ch. I–II | 2 Feb 2025 (Art. 113(a)) |

@@ -2,7 +2,10 @@
   Document : DRAFT Commission Guidelines on classification of high-risk AI systems - Annex I legislation
   Landing  : https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems
   Direct   : https://ec.europa.eu/newsroom/dae/redirection/document/128560
-  Date     : draft (undated) | fetched: 2026-08-25
+  Date     : draft (undated), published 19 May 2026 | fetched: 2026-08-25
+  Status   : still DRAFT as of 2026-08-29, not yet finalised despite the Art. 6(5) 2 Feb 2026
+             statutory deadline; targeted consultation closed 23 Jul 2026; no adoption date set.
+             Re-check https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems
   Note     : converted with 'pdftotext -layout'; wording preserved verbatim.
 -->
 

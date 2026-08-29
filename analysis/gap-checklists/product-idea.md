@@ -24,7 +24,7 @@ For each tier hit above, enumerate:
 
 - [ ] **B1. Provider duty stack**: Section 2 requirements (risk mgmt, data governance, tech doc, logging, transparency, oversight, accuracy/robustness/cybersecurity) + QMS + conformity assessment + declaration + CE + registration + PMM + incident reporting. (Arts. 8–15, 16–21, 72–73)
 - [ ] **B2. Deployer duties your customers will face** (they'll ask): use per instructions, oversight staffing, input-data quality, monitoring, log retention ≥6 months, worker notification, affected-person notification, FRIA if public-body/public-service/credit-scoring context. (Arts. 26–27)
-- [ ] **B3. Timeline fit**: can you be conformity-assessment-ready before the applicable date (2 Aug 2026 for Annex III; 2 Aug 2027 for Annex I products)? Notified-body lead time where relevant.
+- [ ] **B3. Timeline fit**: Annex III obligations are already in force (applicable since 2 Aug 2026) — are you compliant now, not planning ahead? Annex I product-path obligations still have runway to 2 Aug 2027. Notified-body lead time where relevant.
 - [ ] **B4. Fine exposure framing**: up to €35M/7% (prohibited), €15M/3% (most obligations), €7.5M/1% (misleading info); SME cap = lower of amount/percentage. (Art. 99)
 
 ## Red flags needing re-scoping

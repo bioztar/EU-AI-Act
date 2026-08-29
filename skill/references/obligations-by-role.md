@@ -4,6 +4,8 @@ Complete obligation sets per role and per tier under Regulation (EU) 2024/1689. 
 
 **Horizontal deadlines used below:** log retention ≥6 months (Arts. 19(1), 26(6)); documentation retention 10 years (Arts. 18(1), 22(3)(b), 23(5), 47(1), 54(3)(b)); serious-incident reports 15 days standard / 2 days critical-infrastructure-or-widespread / 10 days death (Art. 73(2)–(4)).
 
+**Status check (2026-08-29):** every section below marked "applies from"/"from" a date through 2 Aug 2026 (Sections 1, 3–9) is describing obligations already in force today, not future ones. Only Section 2 (Annex I product path, 2 Aug 2027) is still ahead.
+
 ---
 
 ## 1. Providers of high-risk AI systems (Annex III path — applies from 2 Aug 2026)
