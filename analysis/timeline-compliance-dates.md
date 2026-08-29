@@ -2,6 +2,8 @@
 
 All dates from Art. 113 (application), Art. 111 (legacy systems), Art. 112 (reviews), and in-article deadlines. Entry into force: 1 August 2024 (20th day after OJ publication of 12 July 2024).
 
+**Status check (2026-08-29):** every milestone through **2 Aug 2026** below — prohibitions, AI literacy, GPAI obligations, governance, penalties regime, the Annex III high-risk regime, and Art. 50 transparency — is **already in force**, not upcoming. Only the Annex I product-safety path (2 Aug 2027) and the two 2030/2031 legacy dates remain future as of this check. Read every "applies from" below as a historical trigger date, not a countdown.
+
 ## Binding milestones
 
 | Date | What becomes binding | Source |

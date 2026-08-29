@@ -5,6 +5,19 @@ knowledge — guidelines, national implementations, standards landscape — a
 structured analysis layer distilled from it, and a cross-harness compliance
 skill built on both.
 
+## Who this is for
+
+- **Compliance / legal reviewers** who want every claim traceable to a binding
+  article — no reading required beyond `analysis/`; every line cites Art./Annex/Rec.
+- **Engineering leads** who want concrete build patterns (log schema, oversight
+  UI, doc pipeline) instead of legal prose — `analysis/design-recommendations.md`.
+- **Anyone running an AI coding agent** (Claude Code, Pi, Codex, similar) who
+  wants that agent to self-check a codebase, design doc, or product idea against
+  the Act — install `skill/` and ask it to.
+
+Five minutes, no install: open `analysis/risk-tier-classifier.md`, walk it against
+your system, land on a tier with citations. That's the whole product in one file.
+
 ## What this is
 
 Three layers, strictly ordered:
@@ -34,7 +47,7 @@ Clone this repo, run the install script (symlinks `skill/` into every harness
 skill directory that exists), then tell your agent:
 
 ```
-git clone <this repo> && cd EU-AI-Act && ./scripts/install-skill.sh --all
+git clone https://github.com/bioztar/EU-AI-Act.git && cd EU-AI-Act && ./scripts/install-skill.sh --all
 ```
 
 then in your agent session:
@@ -63,6 +76,8 @@ scripts/                 update-corpus.sh, html2md.py, install-skill.sh
 
 ## Disclaimer
 
-Informational analysis, not legal advice. Corpus reflects sources fetched
-2026-08-25; verify current law and designated national authorities before
-relying on any output in a binding context.
+Informational analysis, not legal advice. Corpus fetched 2026-08-25, spot-checked
+and re-verified against primary sources 2026-08-29 (see
+`docs/adversarial-review-2026-08-29.md` and `scripts/link-check-report-2026-08-29.md`
+for what changed and what's still open). Verify current law and designated national
+authorities before relying on any output in a binding context.
