@@ -17,3 +17,9 @@
 - Recital 64 of the AI Act describes complementary application: machinery
   sectoral law covers mechanical risks, the AI Act covers AI-specific risks;
   providers may integrate testing/documentation processes across both regimes.
+
+## Update (checked 2026-10-18)
+Regulation (EU) 2026/1744 (OJ L, 2026/1744, in force 27 Jul 2026) deletes Annex I Section A point 1
+(Machinery Directive 2006/42/EC) of the AI Act and adds the Machinery Regulation (EU) 2023/1230 as
+Annex I Section B point 21; it also amends Regulation (EU) 2023/1230 itself. See
+`corpus/act/regulation-eu-2026-1744-digital-omnibus.md`.

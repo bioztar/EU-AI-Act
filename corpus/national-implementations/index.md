@@ -22,3 +22,11 @@ files. Germany's authority designation is now confirmed enacted (Bundesnetzagent
 aesia.gob.es site is still unreachable (TLS certificate failure this time, vs. connection failure
 on 2026-08-25). The remaining 25 member states were not re-verified in this pass — still open for
 a later mission per the note above.
+
+**Update (checked 2026-10-18):** the Commission's list of market-surveillance single points of
+contact (https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act,
+fetched 2026-10-18) is now the primary cross-check for all 27 states; it is reproduced in
+`skill/references/national-authorities.md` (SPOC column). It lists 21 states (11 marked `*`,
+designation pending final adoption) and no entry for Austria, Belgium, Bulgaria, Croatia, Hungary
+and Slovakia. Spain re-checked against BOE (see spain/index.md; RD number corrected). Per-state
+files other than Spain were not otherwise re-probed this pass.

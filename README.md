@@ -62,9 +62,10 @@ demands.
 
 ```
 corpus/                  raw source documents (do not treat as analysis)
-  act/                   Regulation (EU) 2024/1689 full text
+  act/                   Regulation (EU) 2024/1689 full text, Omnibus 2026/1744, consolidated text
   guidelines/            Commission guidelines & drafts
   gpai-code-of-practice/ AI Office GPAI Code (3 chapters + doc form)
+  transparency-code-of-practice/  Art. 50 code + Commission/Board adequacy assessment
   national-implementations/  27 member-state authority notes
   related-legislation/   GDPR, Data Act, machinery, PLD pointers
   standards/             harmonised-standards landscape pointers
@@ -77,7 +78,9 @@ scripts/                 update-corpus.sh, html2md.py, install-skill.sh
 ## Disclaimer
 
 Informational analysis, not legal advice. Corpus fetched 2026-08-25, spot-checked
-and re-verified against primary sources 2026-08-29 (see
+and re-verified against primary sources 2026-08-29; freshness pass 2026-10-18 added the
+Digital Omnibus on AI (Regulation (EU) 2026/1744) and updated dates throughout (see
+`scripts/freshness-report-2026-10-18.md`, `scripts/link-check-report-2026-10-18.md`,
 `docs/adversarial-review-2026-08-29.md` and `scripts/link-check-report-2026-08-29.md`
 for what changed and what's still open). Verify current law and designated national
 authorities before relying on any output in a binding context.

@@ -1,12 +1,13 @@
 ---
 name: eu-ai-act-compliance
-description: EU AI Act (Regulation (EU) 2024/1689) compliance analysis for any artifact — codebase, design doc, product idea, or automation/agent concept. Produces a consulting-grade report: risk-tier classification, role determination, severity-ranked gaps, required actions, and design recommendations. Use when the user says "EU AI Act", "AI compliance check", "analyze against AI Act", "compliance review", "is this high-risk under the AI Act", or asks about AI Act obligations, fines, or deadlines.
+description: EU AI Act (Regulation (EU) 2024/1689, as amended by Regulation (EU) 2026/1744 Digital Omnibus) compliance analysis for any artifact — codebase, design doc, product idea, or automation/agent concept. Produces a consulting-grade report: risk-tier classification, role determination, severity-ranked gaps, required actions, and design recommendations. Use when the user says "EU AI Act", "AI compliance check", "analyze against AI Act", "compliance review", "is this high-risk under the AI Act", or asks about AI Act obligations, fines, or deadlines.
 ---
 
 # EU AI Act Compliance Skill
 
 You are performing a compliance analysis against Regulation (EU) 2024/1689 (the
-EU AI Act). The user has given you an artifact — a codebase, design doc, RFC,
+EU AI Act), as amended by Regulation (EU) 2026/1744 ("Digital Omnibus on AI",
+in force 27 Jul 2026; references last verified 2026-10-18). The user has given you an artifact — a codebase, design doc, RFC,
 pitch deck, or agent concept. Your output is a structured report (template in
 `references/report-template.md`). You have zero prior knowledge of the Act; this
 skill is your entire knowledge. Everything in `references/` cites binding
@@ -53,8 +54,9 @@ Walk `references/risk-tier-classifier.md` top to bottom; first match wins:
 0. In scope at all? (exclusions: military, pure R&D, personal use, open-source…)
 1. Role determination (above)
 2. Prohibited practice? → Art. 5 = unlawful, stop, fine cap €35M/7%
-3. High-risk via Annex I product path (Art. 6(1), applies from 2 Aug 2027)
-4. High-risk via Annex III standalone path (Art. 6(2), applies from 2 Aug 2026);
+   (new 5(1)(ba)/(bb) deepfake-nudity/CSAM bans apply from 2 Dec 2026)
+3. High-risk via Annex I product path (Art. 6(1), applies from 2 Aug 2028)
+4. High-risk via Annex III standalone path (Art. 6(2), applies from 2 Dec 2027);
    test Art. 6(3) derogation — profiling of natural persons always kills it
 5. GPAI model tier (Art. 53/55; systemic-risk presumption >10²⁵ FLOP)
 6. Limited-transparency tier (Art. 50)
@@ -96,6 +98,8 @@ can act on every finding without reading the Act.
   non-EU-provider rules and for naming the supervising national authority.
 - Scope guard: flag GDPR / product-safety / cybersecurity interactions
   (e.g. Arts. 2(7), 26(9)) as pointers, not findings.
+- Label dates by status: applicable now vs adopted-not-yet-applicable (the
+  high-risk regime is NOT applicable before 2 Dec 2027 / 2 Aug 2028).
 - Every run ends with: *Informational analysis, not legal advice.*
 
 ## Reference map

@@ -61,3 +61,17 @@ standards trackers). Findings:
 ## What should be checked next
 - Live JTC 21 work programme at standards.cencenelec.eu (org id 2916257) from a non-blocked client.
 - Commission HAS consultants' deliverables and OJ publications of standard references.
+
+## Update (checked 2026-10-18)
+Primary source: Commission page "Standardisation of the AI Act"
+(https://digital-strategy.ec.europa.eu/en/policies/ai-act-standardisation, last update shown
+3 Aug 2026, fetched 2026-10-18): CEN and CENELEC develop the standards through JTC 21 across ten
+areas (risk management, data governance/quality, record keeping, transparency, human oversight,
+accuracy, robustness, cybersecurity, quality management, conformity assessment); prEN 18286
+(QMS) was the first to enter public enquiry on 30 October 2025. The page cites **no** harmonised
+standard referenced in the Official Journal — still zero OJ-cited AI Act harmonised standards as
+far as this primary source shows. Reg. (EU) 2026/1744 amends Art. 40(2) (Commission
+standardisation requests to cover joint compliance with Annex I Section A legislation) and adds
+Art. 42(3) (CRA Art. 12(1) compliance ⇒ deemed compliance with AI Act cybersecurity requirement).
+The "Q4 2026" acceleration target and the per-standard stage information above remain
+secondary-source / unverified; jtc21.eu not re-probed.

@@ -7,7 +7,7 @@ Run against a design doc / architecture spec / RFC for a system intended for the
 - [ ] **C1. Intended purpose defined precisely** — use cases, context of use, users, affected persons. Everything else (classification, requirements, instructions) keys off this. (Art. 3(12))
 - [ ] **C2. Risk-tier classification section exists** with reasoning: prohibited-practice check (Art. 5), Annex I product path (Art. 6(1)), Annex III list path (Art. 6(2)), Art. 6(3) derogation incl. profiling override, GPAI-model layering (Art. 51).
 - [ ] **C3. Role map**: which legal entity is provider, deployer, importer, distributor; role-shift triggers if customers may rebrand/repurpose (Art. 25(1)); authorised representative planned for non-EU providers (Art. 22(1)).
-- [ ] **C4. Compliance timeline acknowledged**: design decisions dated against 2 Feb 2025 / 2 Aug 2025 / 2 Aug 2026 / 2 Aug 2027 applicability and legacy carve-outs if replacing an existing system (Arts. 111, 113).
+- [ ] **C4. Compliance timeline acknowledged**: design decisions dated against 2 Feb 2025 / 2 Aug 2025 / 2 Aug 2026 (Art. 50) / 2 Dec 2026 (new prohibitions; legacy Art. 50(2)) / 2 Dec 2027 (Annex III) / 2 Aug 2028 (Annex I) applicability (dates as amended by Reg. (EU) 2026/1744) and legacy carve-outs if replacing an existing system (Arts. 111, 113).
 
 ## High
 
