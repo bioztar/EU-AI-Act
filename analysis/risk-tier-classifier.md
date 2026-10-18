@@ -1,5 +1,7 @@
 # Risk-Tier Classifier
 
+Last verified 2026-10-18 against Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI, OJ L 2026/1744, in force 27 Jul 2026).
+
 Decision tree for classifying an AI system under Regulation (EU) 2024/1689. Walk it top to bottom; the first match wins. Every terminal node cites the governing article. **Articles are binding law; recitals are persuasive interpretation only.**
 
 ---
@@ -42,13 +44,13 @@ Duties attach to roles, not to systems. One entity can hold several roles simult
 - make a substantial modification (Art. 3(23)) keeping it high-risk;
 - modify the intended purpose of a non-high-risk system so it becomes high-risk.
 
-Conversely, the original provider is released but must cooperate and hand over documentation — unless it explicitly forbade conversion to high-risk (Art. 25(2)). Written agreements with suppliers of tools/components are mandatory for high-risk integration (Art. 25(4)); open-source component vendors are exempt from that duty.
+Conversely, the original provider is released but must cooperate and make available documentation, information and reasonably expected technical access — unless it clearly specified the system is not to be changed into a high-risk system (Art. 25(2) as amended by Reg. 2026/1744; breach now fineable under Art. 99(4)(da)). Written agreements with suppliers of tools/components are mandatory for high-risk integration (Art. 25(4)); open-source component vendors are exempt from that duty.
 
 Financial institutions: internal-governance rules under Union financial services law substitute for parts of the QMS, logs, and monitoring duties (Arts. 17(4), 19(2), 26(5)-(6)).
 
 ## Step 2 — Prohibited? (Chapter II)
 
-If the system's purpose matches Art. 5(1), it cannot be placed, served, or used in the Union at all. Fines up to €35M / 7% worldwide turnover (Art. 99(3)).
+If the system's purpose matches Art. 5(1), it cannot be placed, served, or used in the Union at all. Fines up to €35M / 7% worldwide turnover (Art. 99(3)). Nine practices after Reg. 2026/1744: points 1–8 below apply since 2 Feb 2025; point 9 applies from **2 Dec 2026** (adopted, not yet applicable).
 
 1. Subliminal/manipulative/deceptive techniques materially distorting behaviour causing significant harm — 5(1)(a)
 2. Exploiting vulnerabilities due to age, disability, social/economic situation — 5(1)(b)
@@ -58,6 +60,8 @@ If the system's purpose matches Art. 5(1), it cannot be placed, served, or used 
 6. Emotion inference in workplaces and educational institutions (medical/safety purposes exempt) — 5(1)(f)
 7. Biometric categorisation inferring race, political opinions, trade-union membership, religious/philosophical beliefs, sex life, sexual orientation — 5(1)(g)
 8. Real-time remote biometric identification in publicly accessible spaces **for law enforcement**, outside the three exhaustively listed objectives (victim search incl. missing persons; imminent life-safety/terror threat; Annex II offences punishable ≥4 years) — 5(1)(h)
+
+9. *(from 2 Dec 2026)* AI systems generating non-consensual sexually explicit/intimate content (image, video, audio) of an identifiable natural person — 5(1)(ba); or child sexual abuse material — 5(1)(bb); subject to the conditions in Art. 5(1a) and (1b) (intended purpose, or reasonably foreseeable misuse without reasonable safeguards — read the text in `corpus/act/regulation-eu-2026-1744-digital-omnibus.md`)
 
 Point 8 is not absolute: each use needs prior judicial/independent-authority authorisation (24h to regularise urgent starts), fundamental-rights impact assessment + registration before deployment, notification to market surveillance and DP authorities, annual reporting chain to Commission (Art. 5(2)–(7)). Member States may be stricter (Art. 5(5), last subpara).
 
@@ -69,9 +73,11 @@ High-risk under **Art. 6(1)** when BOTH:
 - (a) intended as safety component of, or itself, a product covered by Annex I Union harmonisation legislation; AND
 - (b) that product requires **third-party conformity assessment** under that legislation.
 
-Annex I Section A (New Legislative Framework products): machinery (2006/42/EC), toys (2009/48/EC), recreational craft (2013/53/EU), lifts (2014/33/EU), ATEX equipment (2014/34/EU), radio equipment (2014/53/EU), pressure equipment (2014/68/EU), cableways (2016/424), PPE (2016/425), gas appliances (2016/426), medical devices (2017/745), IVDs (2017/746). Section B (other legislation, e.g. aviation, vehicles, rail, marine equipment): for Section B products only Arts. 6(1), 102–109, 112 apply (Art. 2(2)).
+Annex I Section A (New Legislative Framework products): ~~machinery (2006/42/EC)~~ (deleted by Reg. 2026/1744), toys (2009/48/EC), recreational craft (2013/53/EU), lifts (2014/33/EU), ATEX equipment (2014/34/EU), radio equipment (2014/53/EU), pressure equipment (2014/68/EU), cableways (2016/424), PPE (2016/425), gas appliances (2016/426), medical devices (2017/745), IVDs (2017/746). Section B (other legislation, e.g. aviation, vehicles, rail, marine equipment): for Section B products only Arts. 6(1), 102–109, 112 apply (Art. 2(2)).
 
-If yes → high-risk; requirements apply from **2 August 2027** (Art. 113(c)); conformity assessment follows the sectoral legislation, with Chapter III Section 2 requirements folded in (Art. 43(3)).
+Not a safety component (Art. 6(1a)–(1c), new): systems solely providing user assistance, optimisation, efficiency, automation, convenience or quality control unrelated to safety — unless their failure endangers health or safety; third-party assessment required solely for non-health/safety risks (e.g. radio spectrum/EMC) does not satisfy 6(1)(b). Machinery: Annex I Section A point 1 (Dir. 2006/42/EC) deleted; Machinery Regulation (EU) 2023/1230 moved to Section B point 21, so machinery AI is covered only through the Section B mechanism (Art. 2(2) as amended).
+
+If yes → high-risk; requirements apply from **2 August 2028** (Art. 113(c)(ii) as amended; was 2 Aug 2027); conformity assessment follows the sectoral legislation, with Chapter III Section 2 requirements folded in (Art. 43(3)).
 
 ## Step 4 — High-risk via the standalone path (Annex III)?
 
@@ -87,7 +93,7 @@ Annex III areas (Art. 6(2)):
 
 **Art. 6(3) derogation**: an Annex III system is NOT high-risk if it does not pose significant harm risk including by not materially influencing decision outcomes — available only if it performs a narrow procedural task (a), improves a completed human activity (b), detects decision patterns/deviations without replacing human review (c), or performs a preparatory task (d). **Always overridden if the system profiles natural persons** (final subparagraph). The provider claiming the derogation must document the assessment pre-market and register the system in the EU database (Art. 6(4), Art. 49(2)); authorities can challenge misclassification (Art. 80). Draft Commission guidelines exist on this classification exercise (persuasive until finalised; Art. 6(5) required them by 2 Feb 2026).
 
-If yes → high-risk; most obligations apply from 2 August 2026 (Art. 113 main paragraph); conformity assessment = internal control (Annex VI) for Annex III points 2–8, notified body possible/required for point 1 biometrics (Art. 43(1)–(2)).
+If yes → high-risk; obligations apply from **2 December 2027** (Art. 113(c)(i) as amended; was 2 Aug 2026). Commission Art. 6 classification guidelines exist only as **draft** (published 19 May 2026; still draft at 2026-10-18) — persuasive at most; conformity assessment = internal control (Annex VI) for Annex III points 2–8, notified body possible/required for point 1 biometrics (Art. 43(1)–(2)).
 
 ## Step 5 — GPAI model tier
 
@@ -116,25 +122,26 @@ Law-enforcement-authorised uses are carved out of each (with safeguards). Timing
 ## Step 7 — Minimal tier
 
 Everything else: no direct obligations beyond:
-- AI literacy of staff (providers AND deployers) — Art. 4
+- Measures to support AI literacy of staff (providers AND deployers) — Art. 4 as amended (no guaranteed specific level)
 - Voluntary codes of conduct encouraged (Art. 95)
 - Market surveillance can still act on any AI system presenting risk (Art. 79(1))
 - GDPR/data protection law continues to apply (Art. 2(7))
 
 ## Quick reference — tier × start date
 
-**Status check (2026-08-29):** every "applies from" row through 2 Aug 2026 is already in force today; only the Annex I product-safety row (2 Aug 2027) is still future.
+**Status check (2026-10-18):** applicable now: prohibitions 1–8, AI literacy, GPAI, governance/penalties, Art. 50 transparency, Art. 101. Adopted, not yet applicable: prohibition 9 (2 Dec 2026), Annex III high-risk (2 Dec 2027), Annex I high-risk (2 Aug 2028). (The 2026-08-29 check wrongly listed the Annex III regime as in force.)
 
 | Tier | Governing article(s) | Applies from |
 |---|---|---|
-| Prohibitions + AI literacy | Ch. I–II | 2 Feb 2025 (Art. 113(a)) |
+| Prohibitions + AI literacy | Ch. I–II | 2 Feb 2025 (Art. 113(a)); new 5(1)(ba)/(bb): 2 Dec 2026 |
 | GPAI model obligations | Ch. V | 2 Aug 2025 (Art. 113(b)) |
 | Governance, notifying bodies, penalties, confidentiality | Ch. VII, XII, Art. 78 | 2 Aug 2025 (Art. 113(b)) |
-| High-risk (Annex III path) + transparency (Art. 50) | Ch. III–IV | 2 Aug 2026 (Art. 113) |
-| High-risk (Annex I product path) | Art. 6(1) + corresponding obligations | 2 Aug 2027 (Art. 113(c)) |
+| Transparency (Art. 50) | Ch. IV | 2 Aug 2026 (Art. 113); pre-2 Aug 2026 generative systems: 50(2) by 2 Dec 2026 (Art. 111(4)) |
+| High-risk (Annex III path) | Ch. III Sec. 1–3 | 2 Dec 2027 (Art. 113(c)(i) as amended) |
+| High-risk (Annex I product path) | Ch. III Sec. 1–3 | 2 Aug 2028 (Art. 113(c)(ii) as amended) |
 | Commission fines on GPAI providers | Art. 101 | 2 Aug 2026 (carved out of 113(b)) |
 
 ## Legacy carve-outs
 
-- Systems already on the market before 2 Aug 2026: only caught by **significant design changes** after that date; public-authority-use high-risk systems must comply by 2 Aug 2030 regardless (Art. 111(2)).
+- High-risk systems already on the market before the Chapter III application date (2 Dec 2027 Annex III / 2 Aug 2028 Annex I): only caught by **significant design changes** after that date; public-authority-use high-risk systems must comply by 2 Aug 2030 regardless (Art. 111(2) as amended).
 - Large-scale IT systems of Annex X legal acts placed before 2 Aug 2027: comply by 31 Dec 2030 (Art. 111(1)).

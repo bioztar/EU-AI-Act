@@ -1,16 +1,20 @@
 # Penalties & Enforcement
 
+Reflects Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI, in force 27 Jul 2026; EUR-Lex CELEX 32026R1744 fetched 2026-10-18). **Enforcement events (checked 2026-10-18):** no AI Act fine, AI Office non-compliance decision or published national AI Act penalty decision found on the Commission's AI Office / AI Act pages; re-check next pass.
+
 ## 1. Fine tiers (Art. 99)
 
-Member States lay down penalty rules; must be effective, proportionate, dissuasive; may include warnings and non-monetary measures; SME interests and economic viability considered (Art. 99(1)). Rules notified to Commission by date of entry into application (Art. 99(2)).
+Member States lay down penalty rules; must be effective, proportionate, dissuasive; may include warnings and non-monetary measures; SME interests and economic viability considered (Art. 99(1)). Rules notified to Commission by date of entry into application (Art. 99(2)). Art. 99(1) as amended adds SMC interests and the Commission's Art. 96 guidelines to what Member States take into account.
 
 | Violation | Cap (whichever higher) | Citation |
 |---|---|---|
 | Prohibited practices (Art. 5) | **€35M or 7%** total worldwide annual turnover, preceding financial year | Art. 99(3) |
-| Provider/authorised-rep/importer/distributor/deployer obligations (Arts. 16, 22, 23, 24, 26); notified-body obligations (31, 33(1),(3),(4), 34); transparency (50) | **€15M or 3%** | Art. 99(4) |
+| Provider/authorised-rep/importer/distributor/deployer obligations (Arts. 16, 22, 23, 24, 26); **Art. 25(2) and (4) value-chain obligations (new point (da))**; notified-body obligations (31, 33(1),(3),(4), 34); transparency (50) | **€15M or 3%** | Art. 99(4) |
 | Incorrect, incomplete or misleading information supplied to notified bodies or national competent authorities on request | **€7.5M or 1%** | Art. 99(5) |
 
 **SME cap**: fines up to the *lower* of the amount or percentage above — SMEs never pay both maxima (Art. 99(6)).
+
+**SMC cap (new, Art. 99(6a))**: "In the case of SMCs, each fine referred to in paragraphs 4 and 5 shall be up to the percentages or amount referred therein, whichever is lower." Note: unlike the SME cap, the SMC cap covers only paragraphs 4 and 5 — **not** Art. 5 prohibited-practice fines (99(3)). SMC defined in Art. 3(14b) by reference to Commission Recommendation (EU) 2025/1099.
 
 Public authorities: each Member State decides to what extent administrative fines apply to them (Art. 99(8)). Fines may be imposed by national courts where legal systems so provide, with equivalent effect (Art. 99(9)). Procedural safeguards + judicial remedies guaranteed (Art. 99(10)). Annual Member-State reports to Commission on fines issued and litigation (Art. 99(11)).
 
@@ -81,7 +85,7 @@ Derogation valve (Art. 46): MSA can authorise specific high-risk systems for exc
 ## 6. GPAI supervision (Arts. 88–94)
 
 - Commission holds **exclusive** Chapter V enforcement powers, implemented through AI Office (88(1)).
-- Vertical integration rule: model+system same provider → AI Office monitors the system too (75(1)).
+- **AI Office competence over AI systems (Art. 75(1) as amended; Arts. 75a–75d new, in force 27 Jul 2026):** the AI Office is exclusively competent to supervise and enforce for (a) AI systems based on a GPAI model where model and system are developed by the same provider/undertaking — except (i) systems related to Annex I products, (ii) Annex III point 2 systems, (iii) systems of law-enforcement, border-management authorities and financial institutions insofar as they fall under Art. 74(6), (iv) Annex III point 8 systems as regards the administration of justice; and (b) AI systems that constitute or are integrated into a designated VLOP/VLOSE (DSA). The exclusive competence applies to the providers of those systems, and to deployers only when they are also the provider or part of the same undertaking. Its powers include MSA powers under Reg. 2019/1020, binding commitments (75b), non-compliance decisions with fines within Art. 99 caps and **periodic penalty payments** (75c), five-year limitation periods (75c(8)), CJEU unlimited jurisdiction (75c(6)). Serious incidents for these systems go to the AI Office (75(1a)). Exact exception list: read amended Art. 75(1) in `corpus/act/` before relying on it.
 - MSAs cooperate with AI Office on directly usable GPAI systems classifiable as high-risk (75(2)); can obtain model information via AI Office within 30 days when blocked (75(3)).
 - Escalation ladder: structured dialogue → Art. 91 information requests → Art. 92 evaluations (incl. API/source-code access, independent experts) → Art. 93 binding measures (compliance measures, mitigation, restrict/withdraw/recall model); commitments may be made binding (93(3)).
 - Qualified alerts from scientific panel trigger investigation powers (90).
@@ -89,7 +93,7 @@ Derogation valve (Art. 46): MSA can authorise specific high-risk systems for exc
 
 ## 7. Serious-incident reporting chain (Art. 73)
 
-Provider → MSA of incident Member State: 15 days standard; 2 days widespread infringement or critical-infrastructure disruption; 10 days death. Incomplete initial report permitted. Post-report investigation duty without altering the system before informing authorities (73(6)). MSA measures within 7 days via Reg. 2019/1020 Art. 19 (73(8)); immediate Commission notification (73(11)). Sectoral equivalents (MDR/IVDR) limit scope to fundamental-rights incidents (73(10)).
+Provider → MSA of incident Member State (or the AI Office for systems under Art. 75(1) competence, Art. 75(1a) new): 15 days standard; 2 days widespread infringement or critical-infrastructure disruption; 10 days death. Incomplete initial report permitted. Post-report investigation duty without altering the system before informing authorities (73(6)). MSA measures within 7 days via Reg. 2019/1020 Art. 19 (73(8)); immediate Commission notification (73(11)). Sectoral equivalents (MDR/IVDR) limit scope to fundamental-rights incidents (73(10)).
 
 Deployers mirror the duty: inform provider first, then importer/distributor and MSA; suspend use on suspected Art. 79(1) risk (26(5)); law-enforcement sensitive operational data excluded.
 

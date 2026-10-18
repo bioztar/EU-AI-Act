@@ -32,7 +32,7 @@ Run against a repository implementing (or claimed to implement) an AI system. Fo
 
 - [ ] **L1. Accessibility requirements met** (Web Accessibility Directive 2016/2102, Accessibility Act 2019/882). (16(l))
 - [ ] **L2. Provider identity/contact embedded** in system/packaging/docs. (16(b))
-- [ ] **L3. AI literacy enablement for staff operating/onboarding the system** (docs, training material). (Art. 4)
+- [ ] **L3. AI literacy enablement for staff operating/onboarding the system** (docs, training material) — duty is to take measures supporting literacy, not to guarantee a level (Art. 4 as amended by Reg. (EU) 2026/1744). (Art. 4)
 - [ ] **L4. Deployer-enablement artifacts shipped**: worker-notification template, monitoring dashboards, affected-person notification strings. (26(7), 26(11))
 
 Verdict rule: any C-item FAIL → do not ship into EU market. Any H-item UNKNOWN → schedule assessment before conformity assessment. M/L items feed the remediation backlog ordered by severity.

@@ -43,6 +43,13 @@ echo "== 1. AI Act (Regulation (EU) 2024/1689), CELLAR content negotiation =="
 fetch "$CELLAR/32024R1689" corpus/act/regulation-eu-2024-1689.oj.html "application/xhtml+xml; Accept-Language=eng"; sleep 3
 fetch "$CELLAR/32024R1689" corpus/act/regulation-eu-2024-1689.oj.pdf "application/pdf; Accept-Language=eng"
 python3 scripts/html2md.py corpus/act/regulation-eu-2024-1689.oj.html corpus/act/regulation-eu-2024-1689.md
+sleep 3
+echo "== 1b. Digital Omnibus on AI (Regulation (EU) 2026/1744) + consolidated AI Act =="
+fetch "$CELLAR/32026R1744" corpus/act/regulation-eu-2026-1744-digital-omnibus.oj.html "application/xhtml+xml; Accept-Language=eng"; sleep 3
+python3 scripts/html2md.py corpus/act/regulation-eu-2026-1744-digital-omnibus.oj.html corpus/act/regulation-eu-2026-1744-digital-omnibus.md
+# Consolidated version id changes with each amendment: check EUR-Lex "Current consolidated version" first.
+fetch "$CELLAR/02024R1689-20260727" corpus/act/regulation-eu-2024-1689-consolidated-2026-07-27.html "application/xhtml+xml; Accept-Language=eng"; sleep 3
+python3 scripts/html2md.py corpus/act/regulation-eu-2024-1689-consolidated-2026-07-27.html corpus/act/regulation-eu-2024-1689-consolidated-2026-07-27.md
 
 echo "== 2. Commission guidelines (digital-strategy library pages -> newsroom DAE docs) =="
 dl_guideline() { # dl_guideline <docid> <base> <description> <landing-url> <date-note>
@@ -74,6 +81,12 @@ dl_guideline 128560 high-risk-classification-draft-annex-i \
 dl_guideline 128561 high-risk-classification-draft-annex-iii \
   "DRAFT Commission Guidelines on classification of high-risk AI systems - Annex III areas" "$GL_HIGHRISK" "draft (undated)"
 
+GL_TRANSP="https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+dl_guideline 131215 transparency-art50-guidelines \
+  "Commission Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act (Annex to C(2026) 5054 final)" "$GL_TRANSP" "document date 20.7.2026"
+dl_guideline 131214 transparency-art50-approval-communication \
+  "Communication to the Commission approving the content of the Article 50 transparency Guidelines, C(2026) 5054 final" "$GL_TRANSP" "document date 20.7.2026"
+
 echo "== 3. General-Purpose AI Code of Practice (July 2025) =="
 dl_cop() { # dl_cop <docid> <base> <description>
   local docid="$1" base="$2" desc="$3"
@@ -86,6 +99,20 @@ dl_cop() { # dl_cop <docid> <base> <description>
 dl_cop 118120 gpai-code-transparency-chapter "Transparency Chapter"
 dl_cop 118115 gpai-code-copyright-chapter "Copyright Chapter"
 dl_cop 118119 gpai-code-safety-security-chapter "Safety and Security Chapter"
+
+echo "== 4. Code of Practice on Transparency of AI-generated Content + adequacy assessment =="
+COP_T="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+COP_O="https://digital-strategy.ec.europa.eu/en/library/commission-opinion-assessment-code-practice-transparency-ai-generated-content"
+dl_tcop() { # dl_tcop <docid> <base> <description> <landing> <date-note>
+  fetch "$NEWSROOM/$1" "corpus/transparency-code-of-practice/$2.pdf"; sleep 2
+  pdf2md "corpus/transparency-code-of-practice/$2" "$3" "$4" "$NEWSROOM/$1" "$5"
+}
+dl_tcop 129555 code-of-practice-transparency-ai-generated-content \
+  "Code of Practice on Transparency of AI-Generated Content" "$COP_T" "see document; Commission adequacy opinion 8.7.2026"
+dl_tcop 130913 commission-opinion-transparency-code \
+  "Commission Opinion on the assessment of the Code of Practice on Transparency of AI-generated content, C(2026) 4839 final" "$COP_O" "document date 8.7.2026"
+dl_tcop 130916 ai-board-adequacy-assessment-transparency-code \
+  "AI Board conclusion on the assessment of the Code of Practice on Transparency of AI-generated content (Art. 50(7))" "$COP_O" "see document"
 
 echo "== done =="
 echo "Related-legislation and national-implementations are pointer/log files — nothing to re-fetch."

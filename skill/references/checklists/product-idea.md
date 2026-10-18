@@ -11,7 +11,7 @@ Run against a pitch, concept note, or early product idea. Fast triage: classify,
 
 ## Classification
 
-- [ ] **K1. High-risk by Annex I product path?** Safety component/product under Annex I legislation + third-party assessment required. Note: obligations bite from 2 Aug 2027. (Art. 6(1), 113(c))
+- [ ] **K1. High-risk by Annex I product path?** Safety component/product under Annex I legislation + third-party assessment required. Note: obligations bite from 2 Aug 2028 (as amended by Reg. (EU) 2026/1744). (Art. 6(1), 113(c))
 - [ ] **K2. High-risk by Annex III path?** Walk all eight areas (biometrics, critical infrastructure, education, employment, essential services incl. credit scoring, law enforcement, migration/border, justice/elections).
 - [ ] **K3. If K2 yes — does Art. 6(3) derogation plausibly apply?** Narrow procedural task / improving completed human activity / pattern detection / preparatory task AND no material influence on decisions AND **no profiling of natural persons** (profiling kills the derogation). Budget for the written assessment + registration duty. (Arts. 6(3)-(4), 49(2))
 - [ ] **K4. Is the core asset a GPAI model?** Significant generality + wide task competence + integrability. Estimate training compute vs 10²⁵ FLOP systemic-risk presumption. (Arts. 3(63), 51)
@@ -24,8 +24,8 @@ For each tier hit above, enumerate:
 
 - [ ] **B1. Provider duty stack**: Section 2 requirements (risk mgmt, data governance, tech doc, logging, transparency, oversight, accuracy/robustness/cybersecurity) + QMS + conformity assessment + declaration + CE + registration + PMM + incident reporting. (Arts. 8–15, 16–21, 72–73)
 - [ ] **B2. Deployer duties your customers will face** (they'll ask): use per instructions, oversight staffing, input-data quality, monitoring, log retention ≥6 months, worker notification, affected-person notification, FRIA if public-body/public-service/credit-scoring context. (Arts. 26–27)
-- [ ] **B3. Timeline fit**: Annex III obligations are already in force (applicable since 2 Aug 2026) — are you compliant now, not planning ahead? Annex I product-path obligations still have runway to 2 Aug 2027. Notified-body lead time where relevant.
-- [ ] **B4. Fine exposure framing**: up to €35M/7% (prohibited), €15M/3% (most obligations), €7.5M/1% (misleading info); SME cap = lower of amount/percentage. (Art. 99)
+- [ ] **B3. Timeline fit**: Annex III obligations apply from **2 Dec 2027** and Annex I product-path obligations from **2 Aug 2028** (Art. 113(c) as amended by Reg. (EU) 2026/1744); Art. 50 transparency already applies (since 2 Aug 2026) — will the product be on the market before those dates (grandfathering only absent significant design changes, Art. 111(2))? (Arts. 111, 113)
+- [ ] **B4. Fine exposure framing**: up to €35M/7% (prohibited), €15M/3% (most obligations), €7.5M/1% (misleading info); SME cap = lower of amount/percentage; SMC cap = lower-of for 99(4)–(5) fines only. (Art. 99(6), (6a))
 
 ## Red flags needing re-scoping
 
